@@ -8,20 +8,35 @@
         <title>Portfolio</title>
         <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
         <style>
+            /* Style for the nav element */
             nav {
-                display: flex;
-                background-color: #91afb9;
+                background-color: #333;
                 padding: 10px;
+            }
+    
+            
+            nav ul {
+                list-style-type: none; 
+                margin: 0;
+                padding: 0;
+                display: flex; /* This makes the list items align horizontally */
+            }
+
+            nav ul li {
+                margin-right: 15px; /* Space between the items */
             }
     
             nav a {
                 color: white;
                 text-decoration: none;
-                margin-right: 15px;
+                padding: 8px 15px; 
+                display: block; 
             }
-    
+
+            /* Change the link color when hovered */
             nav a:hover {
                 text-decoration: underline;
+                background-color: #555; 
             }
         </style>
     </head>
